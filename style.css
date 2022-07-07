@@ -1,0 +1,345 @@
+body {
+    margin: 0;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.fullArea {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(233, 236, 240);
+}
+
+.navigation {
+    display: flex;
+    background-color: #24252A;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.item {
+    position: absolute;
+    right: 0;
+    margin-right: 220px;
+
+}
+
+.helpPeopleTitle {
+    padding-left: 50px;
+}
+
+.item a {
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+}
+
+.item a:hover {
+    color: rgb(43, 112, 172);
+}
+
+header {
+    background-image: url("donation12.jpg");
+
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-size: 100%;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 70px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+.title {
+    font-size: 60px;
+
+}
+
+.donateSection {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.taka {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.taka h3 {
+    margin-right: 20px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.selectTk {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.donateSection input {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    border: none;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.btn {
+    border: none;
+    background-color: rgb(31, 130, 175);
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px 15px;
+    color: white;
+    font-weight: 500;
+    margin: 40px 0px 10px 0px;
+}
+
+.titleLeftBorder {
+    border-left: 5px solid black;
+    height: 120px;
+    width: 0px;
+    border-radius: 5px;
+    margin-top: 52px;
+    margin-right: 15px;
+    border-color: rgb(15, 154, 209);
+}
+
+.headerTitle {
+    display: flex;
+}
+
+.titleText,
+.articleText,
+.surviveText {
+    font-size: 18px;
+    line-height: 1.5em;
+    word-spacing: .4em;
+    color: rgb(46, 46, 46);
+    text-align: justify;
+}
+
+.headerImage {
+    padding: 20px;
+}
+
+.headerImage img {
+    border-radius: 40px;
+    margin-left: 25%;
+
+}
+
+
+.mainTitle,
+.updateTitleText {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.donatePlan {
+    text-align: center;
+    font-size: 48px;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.mainTitleText {
+    text-align: center;
+    margin-top: -10px;
+    padding-bottom: 40px;
+}
+
+.donateItem {
+    display: flex;
+
+}
+
+.helpingItem {
+    width: 28%;
+    margin: 0 auto;
+    text-align: justify;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+
+article {
+    margin: 0px;
+}
+
+.firstAriticle {
+    display: flex;
+    margin-top: 20px;
+}
+
+.articleLeft {
+    margin-top: 40px;
+    padding: 30px;
+    text-align: justify;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.articleLeftTitle {
+    font-size: 50px;
+}
+
+.firstAriticleImg {
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 50px;
+    margin-right: 50px;
+}
+
+.secondArticle {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+.donateArticleRight {
+    margin-left: 5%;
+    margin-bottom: 30px;
+}
+
+.secondMainarticle {
+    text-align: center;
+    font-weight: 7000;
+    font-size: 48px;
+}
+
+.secondArticleContent {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.secondArticle {
+    padding-bottom: 10px;
+}
+
+.donateTitle2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.bangladesh {
+    color: #00703e;
+}
+
+.donateImg {
+    margin-top: 20px;
+}
+
+.helpingItem img {
+    margin-top: 100px;
+}
+
+.contributeBtn {
+    border: none;
+    background-color: rgb(31, 130, 175);
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px 15px;
+    color: white;
+    margin: 10px 0px 10px 0px;
+}
+
+.updateSection {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 40px;
+    margin-top: 10px;
+}
+
+.submitBtn {
+    background: rgb(250, 232, 172);
+    padding: 100px;
+}
+
+.submitBtn input {
+    border: none;
+    font-size: 25px;
+    background: rgb(139, 139, 139);
+    padding: 10px 20px;
+    color: white;
+    margin-right: -4px;
+    font-weight: 600;
+    border: none;
+}
+
+.submitBtn label {
+    background: #00703e;
+    color: white;
+    font-size: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+
+/* <!--Footer area start--> */
+
+
+.footer {
+    display: flex;
+    flex-basis: 25%;
+    flex-grow: 0;
+    width: 100%;
+
+    background-color: #00703e;
+}
+
+.footer h3 {
+
+    font-size: 30px;
+}
+
+.footer a {
+    font-size: 50px;
+    color: white;
+}
+
+.socialLink {
+
+    display: flex;
+
+}
+
+.socialLink svg {
+
+    width: 20px;
+    border: 1px solid black;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+
+.foot {
+    width: 15%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.foot p {
+    text-align: justify;
+}
